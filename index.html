@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Task List</title>
+</head>
+
+<body>
+  <div id="main" class="card">
+    <div class="card-content">
+      <h1 class="card-title">Task List</h1>
+      <form id="task-form">
+        <input type="text" name="task" id="task" placeholder="New Task">
+        <input type="submit" value="Add new Task" class="btn">
+      </form>
+    </div>
+    <div class="line"></div>
+    <div id="output">
+      <div class="card-content">
+        <h1 class="card-title">All Tasks</h1>
+        <input type="text" name="filter" id="filter" placeholder="Filter Tasks">
+        <ul id="collection"></ul>
+        <a href="#" class="clear-tasks btn">Clear Tasks</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
